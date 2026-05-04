@@ -8,16 +8,10 @@ Homebrew tap for [Pling](https://plingpush.com) — connect this machine to your
 brew install jeramo/pling/pling
 ```
 
-Set your API token (find it in the Pling app under Settings → Hosts → Add agent):
+Then set your API token (find it in the Pling app under Settings → Hosts → Add agent). This also starts the service:
 
 ```sh
 pling set-token <YOUR_TOKEN>
-```
-
-Then start the service:
-
-```sh
-brew services start pling
 ```
 
 ## CLI
