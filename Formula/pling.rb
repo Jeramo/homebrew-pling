@@ -1,28 +1,28 @@
 class Pling < Formula
   desc "Connect this machine to your Pling app"
   homepage "https://plingpush.com"
-  version "0.15.2"
+  version "0.15.3"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://github.com/Jeramo/pling-agent/releases/download/v#{version}/pling-darwin-arm64"
-      sha256 "0a5094d568541a3cb0b794d513b72c652ee2cfa971b4e61cc67edb5222a96407"
+      sha256 "0d8a3ad3d15f5ae8be04cabc7fab431115374b160799b3605f13aaf72a6e5422"
     end
     on_intel do
       url "https://github.com/Jeramo/pling-agent/releases/download/v#{version}/pling-darwin-amd64"
-      sha256 "87af03012ee35176457303ce787d1ead5ee88d4bd10cd14fbb60b2d213edd4e0"
+      sha256 "3474ac6afffe27d777170f7ff985d30f4e0be0179f534aa353b7f3ac28deb79c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Jeramo/pling-agent/releases/download/v#{version}/pling-linux-arm64"
-      sha256 "ea77d344275287c078d1915c0119759bd3112e5f8b7d7c3bda5640f14e96e282"
+      sha256 "46aab97e33fe7d065fae1b3edf219c73489b218dd3d2b6253c7019a98d602bf6"
     end
     on_intel do
       url "https://github.com/Jeramo/pling-agent/releases/download/v#{version}/pling-linux-amd64"
-      sha256 "4bfa14a2ac96e70e2a813a1d603bdff9017a42d71d89ac07981931c38142101f"
+      sha256 "95183053f6d09cd1f4abb5c46f4d1320e7c8d363eca4cad607351f0ebe465b93"
     end
   end
 
